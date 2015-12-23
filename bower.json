@@ -1,0 +1,25 @@
+{
+  "name": "EmanualVideo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/EManual/video",
+  "authors": [
+    "jasonlee"
+  ],
+  "description": "the video website for Emanual",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "emanual"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "video.js": "~5.4.6"
+  }
+}
