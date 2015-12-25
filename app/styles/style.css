@@ -1,0 +1,68 @@
+body{
+	 font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.42857143;
+    color: #58666e;
+    background-color: #edf1f2;
+}
+.bg-light{
+	color: #58666e;
+	background-color: #edf1f2;
+}
+.container{
+	margin-top: 20px;
+}
+
+
+
+.title{
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+
+.wrapper{
+	padding: 15px;
+}
+
+.m-r-n-xss{
+	margin-right: -1px;
+}
+.m-l-n-xxs{
+	margin-left: -1px;
+}
+
+.m-t-md{
+	margin-top: 20px;
+}
+
+.row-sm{
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.row-sm > div{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.row.no-gutter{
+	margin-top: 20px;
+	text-align: center;
+}
+.item-listing-desc{
+	height: 20px;
+	font-size: 20px;
+	color: #363f44;
+}
+
+.item-panel{
+	height: 320px;
+}
+
+.item-listing-extra{
+	height: 20px;
+}
+.item-listing-longtime{
+	height: 20px;
+}
+

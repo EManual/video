@@ -1,1 +1,81 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频播放</title>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">Emanual</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="http://www.iemanual.com/">Download</a></li>
+         <li><a href="https://github.com/EManual/video">Github</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+               More<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+               <li><a href="https://github.com/EManual">About Us</a></li>
+               <li><a href="#">Join Us</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</nav>
+ <div id="content" class="main-content bg-light">
+	<div class="container">
+		<div class="m-t-md"></div>
+		<div class="row">
+			<div class="wrapper">
+	          <h3 class=" m-t-none font-thin">Emanual视频列表<a class="text-sm pull-right m-t-sm font-normal" href="/categories/43/Scripts-&amp;-Code"></a>
+	        </h3></div>
+		</div>
+		<div class="row row-sm">
+			<div id="btnEmanual" class="col-md-3 col-sm-6">
+				<div class="item-panel panel b-a">
+					<div class="item m-l-n-xss m-r-n-xss">
+						<div class="pos-rlt">
+								<a href="views/play.html">
+									<img src="http://ww2.sinaimg.cn/mw690/6ee3e8b3gw1ez8vof9tpzj210w0mvwia.jpg" style="width:270px">
+								</a>
+						</div>
+					</div>
+					<div class="row no-gutter item-listing-desc">
+						<div class="m-l-sm m-b-xs m-r-sm m-t-xs">
+								How EManual works
+						</div>
+					</div>
+						<div class="row no-gutter item-listing-extra">
+						<div class="m-l-sm m-b-xs m-r-sm m-t-xs">
+								简单介绍编程助手是如何工作的
+						</div>
+					</div>
+						<div class="row no-gutter item-listing-longtime">
+						<div class="m-l-sm m-b-xs m-r-sm m-t-xs">
+								时长:<span>07:57</span>
+						</div>
+					</div>
+					</div>
+				</div>
+			
+		</div>
+		
+	</div>
+	</div>
+
+
+    </div>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+     $('#btnEmanual').on('click',function(){
+     	location.href = "views/play.html";
+     });
+    </script>
+</body>
+</html>

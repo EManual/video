@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>视频播放</title>
+	<link href="http://vjs.zencdn.net/5.0/video-js.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/mobile.css">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="http://vjs.zencdn.net/5.0/video.min.js"></script>
+    <script type="text/javascript">
+        window.onload=function() {
+            var fontSize = function() {
+                var w = window.innerWidth,width;
+                if(w > 640) {
+                    width = 640;
+                }else if(w < 320) {
+                    width = 320;
+                }else{
+                    width = w;
+                }
+                document.documentElement.style.cssText = 'font-size: ' + 20 / 320 * width + 'px';
+            };
+            fontSize();
+            window.addEventListener('resize',fontSize);
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        How Emanual Work?
+    </div>
+	<div class="video-container">	
+        <video id="emanual-video" class="video-js vjs-default-skin video" controls preload="none" 
+      poster="http://video-js.zencoder.com/oceans-clip.png"
+      data-setup='{}'>
+    <source src="https://emanual.github.io/video-introduction/How%20EManual%20works.mp4" type='video/mp4' />
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+</video>
+</div>
+
+<script type="text/javascript">
+	var videoUrl = 
+    var myPlayer = videojs('emanual-video');
+    videojs("emanual-video").ready(function(){html
+        var myPlayer = this;
+        myPlayer.play();
+    });
+</script>
+
+</body>
+</html>
